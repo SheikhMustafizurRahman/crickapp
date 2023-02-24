@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B0BEC5</color>
+    <color name="colorPrimaryVariant">#78909C</color>
+    <color name="colorOnPrimary">#000000</color>
+    <color name="colorSecondary">#616161</color>
+    <color name="colorSecondaryVariant">#37474F</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorBackground">#263238</color>
+    <color name="colorOnSurface">#263238</color>
+    <color name="colorTextPrimary">#B0BEC5</color>
+    <color name="colorTextSecondary">#B0BEC5</color>
+    <color name="colorButton">#B0BEC5</color>
+    <color name="colorFloatButton">#616161</color>
+    <color name="colorOnSelect">#78909C</color>
+    <color name="colorUnselectedText">#B0BEC5</color>
+    <color name="colorSelected">#78909C</color>
+</resources>

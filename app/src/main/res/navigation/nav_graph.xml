@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.cricketoons.fragments.viewpagershost.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_teamFragment"
+            app:destination="@id/teamFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_matchDetailFragment"
+            app:destination="@id/matchDetailFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_rankingFragment"
+            app:destination="@id/rankingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teamFragment"
+        android:name="com.example.cricketoons.fragments.TeamFragment"
+        android:label="fragment_team"
+        tools:layout="@layout/fragment_team" >
+        <action
+            android:id="@+id/action_teamFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_teamFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_teamFragment_to_playerFragment"
+            app:destination="@id/playerFragment" />
+        <action
+            android:id="@+id/action_teamFragment_to_teamDetailFragment"
+            app:destination="@id/teamDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playerFragment"
+        android:name="com.example.cricketoons.fragments.PlayerFragment"
+        android:label="fragment_player"
+        tools:layout="@layout/fragment_player" />
+    <fragment
+        android:id="@+id/liveAndUpcomingFragment"
+        android:name="com.example.cricketoons.fragments.LiveAndUpcomingFragment"
+        android:label="LiveAndUpcomingFragment" />
+    <fragment
+        android:id="@+id/recentFragment"
+        android:name="com.example.cricketoons.fragments.RecentFragment"
+        android:label="RecentFragment" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.cricketoons.fragments.viewpagershost.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_teamFragment"
+            app:destination="@id/teamFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_playerDetailFragment"
+            app:destination="@id/playerDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teamDetailFragment"
+        android:name="com.example.cricketoons.fragments.TeamDetailFragment"
+        android:label="TeamDetailFragment" >
+        <argument
+            android:name="teamLogo"
+            app:argType="string" />
+        <argument
+            android:name="teamId"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/playerSearchFragment"
+        android:name="com.example.cricketoons.fragments.PlayerSearchFragment"
+        android:label="PlayerSearchFragment" />
+    <fragment
+        android:id="@+id/teamSearchFragment"
+        android:name="com.example.cricketoons.fragments.TeamSearchFragment"
+        android:label="TeamSearchFragment" />
+    <fragment
+        android:id="@+id/matchDetailFragment"
+        android:name="com.example.cricketoons.fragments.viewpagershost.MatchDetailFragment"
+        android:label="fragment_match_detail"
+        tools:layout="@layout/fragment_match_detail" >
+        <argument
+            android:name="fixture"
+            app:argType="com.example.cricketoons.model.apiFixture.Fixture" />
+        <action
+            android:id="@+id/action_matchDetailFragment_to_playerDetailFragment"
+            app:destination="@id/playerDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playerDetailFragment"
+        android:name="com.example.cricketoons.fragments.PlayerDetailFragment"
+        android:label="fragment_player_detail"
+        tools:layout="@layout/fragment_player_detail" >
+        <argument
+            android:name="player_id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/rankingFragment"
+        android:name="com.example.cricketoons.fragments.viewpagershost.RankingFragment"
+        android:label="fragment_ranking"
+        tools:layout="@layout/fragment_ranking" >
+        <action
+            android:id="@+id/action_rankingFragment_to_teamDetailFragment"
+            app:destination="@id/teamDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rankFragment"
+        android:name="com.example.cricketoons.fragments.RankFragment"
+        android:label="RankFragment" >
+    </fragment>
+</navigation>

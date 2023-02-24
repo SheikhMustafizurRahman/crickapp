@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:elevation="@dimen/options_margin"
+    android:layout_margin="@dimen/rankMargin"
+    android:paddingEnd="1dp"
+    android:paddingStart="1dp"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <!-- Player Name -->
+        <TextView
+            android:id="@+id/player_name"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="@dimen/bowlermargintopbottom"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="@dimen/bowlermargintopbottom"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textSize="16sp"
+            tools:text="Player 1" />
+        <!-- Player Status -->
+
+        <!-- Run Score -->
+        <TextView
+            android:id="@+id/player_run_score"
+            android:layout_width="@dimen/runs_size"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/bowlermarginend"
+            android:layout_marginTop="@dimen/bowlermargintopbottom"
+            android:layout_marginBottom="@dimen/bowlermargintopbottom"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            tools:text="2000" />
+
+        <!-- Balls Played -->
+
+        <TextView
+            android:id="@+id/player_ball_played"
+            android:layout_width="@dimen/runs_size"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/bowlermarginend"
+            android:layout_marginTop="@dimen/bowlermargintopbottom"
+            android:layout_marginBottom="@dimen/bowlermargintopbottom"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            tools:text="200" />
+
+        <TextView
+            android:id="@+id/player_fours"
+            android:layout_width="@dimen/runs_size"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/bowlermarginend"
+            android:layout_marginTop="@dimen/bowlermargintopbottom"
+            android:layout_marginBottom="@dimen/bowlermargintopbottom"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            tools:text="10" />
+
+        <TextView
+            android:id="@+id/player_sixes"
+            android:layout_width="@dimen/runs_size"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/bowlermarginend"
+            android:layout_marginTop="@dimen/bowlermargintopbottom"
+            android:layout_marginBottom="@dimen/bowlermargintopbottom"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            tools:text="10" />
+
+        <TextView
+            android:id="@+id/player_SR"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/bowlermargintopbottom"
+            android:layout_marginBottom="@dimen/bowlermargintopbottom"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            tools:text="170.00" />
+
+    </LinearLayout>
+<!--    <TextView
+        android:id="@+id/playerStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        android:hint="Hello fixx"/>-->
+
+</com.google.android.material.card.MaterialCardView>

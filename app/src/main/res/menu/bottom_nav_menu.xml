@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="@string/homescreen" />
+    <item
+        android:id="@+id/ranking"
+        android:icon="@drawable/cricketbat"
+        android:title="@string/ranking" />
+    <item
+        android:id="@+id/searchplayer"
+        android:icon="@drawable/searchlogo"
+        android:title="@string/search" />
+</menu>

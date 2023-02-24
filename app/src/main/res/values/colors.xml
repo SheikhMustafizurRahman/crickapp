@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Day theme -->
+    <color name="colorPrimary">#9C27B0</color>
+    <color name="colorPrimaryVariant">#7B1FA2</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#E1BEE7</color>
+    <color name="colorSecondaryVariant">#D1C4E9</color>
+    <color name="colorOnSecondary">#212121</color>
+    <color name="colorBackground">#E1BEE7</color>
+    <color name="colorOnSurface">#D1C4E9</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#212121</color>
+    <color name="colorButton">#9C27B0</color>
+    <color name="colorFloatButton">#7B1FA2</color>
+    <color name="colorOnSelect">#D1C4E9</color>
+
+    <color name="colorSelected">#D1C4E9</color>
+    <!-- Text color when not selected -->
+    <color name="colorUnselectedText">#FFFFFF</color>
+</resources>

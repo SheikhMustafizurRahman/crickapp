@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">CricketoonS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="teams">Teams</string>
+    <string name="homescreen">Homescreen</string>
+    <string name="search">Search</string>
+    <string name="league_name">League Name</string>
+    <string name="finished">Finished</string>
+    <string name="Upcoming">Upcoming</string>
+    <string name="Result">Yet To Start</string>
+    <string name="yet_to_start">Yet To Start</string>
+    <string name="snackbar_text">No Connection</string>
+    <string name="notout">NOT OUT</string>
+    <string name="bowler">Bowler</string>
+    <string name="economy">ECO</string>
+    <string name="w">W</string>
+    <string name="m">M</string>
+    <string name="o">O</string>
+    <string name="r">R</string>
+    <string name="batsman">Batsman</string>
+    <string name="b">B</string>
+    <string name="_4s">4s</string>
+    <string name="_6s">6s</string>
+    <string name="s_r">S/R</string>
+    <string name="team_a_innings">Team A Innings</string>
+    <string name="team_b_innings">Team B Innings</string>
+    <string name="man_of_the_match">Man Of The Match</string>
+    <string name="venue">Venue</string>
+    <string name="date_and_time">Date and Time</string>
+    <string name="series">Series</string>
+    <string name="teamlogo">TeamLogo</string>
+    <string name="upcoming_matches">Upcoming Matches</string>
+    <string name="playing_xi">Playing XI</string>
+    <string name="ranking">Ranking</string>
+    <string name="men">MEN</string>
+    <string name="women">WOMEN</string>
+</resources>
